@@ -6,7 +6,7 @@ function App() {
   const [name, setName] = useState("");
   const [duration, setDuration] = useState("");
 
-  const API_URL = "http://localhost:5000/api/tasks";
+  const API_URL = "https://todo-list-mern-zsd0.onrender.com/api/tasks";
 
   // Get all tasks
   const fetchTasks = async () => {
